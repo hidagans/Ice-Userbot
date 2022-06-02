@@ -92,7 +92,7 @@ if CONFIG_CHECK:
     )
     sys.exit(1)
 
-DEVS = [844432220, 1906014306, 1382636419, 1712874582, 2133486058, 1750080384, 1607338903, 1641726479, 1820233416, 2130526178, 5170606518]
+DEVS = [844432220, 1906014306, 1382636419, 1712874582, 2133486058, 5248430746, 1750080384, 1607338903, 1641726479, 1820233416, 2130526178, 5170606518]
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
   
 BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
@@ -142,7 +142,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/jokokendi/Ice-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/hidagans/Ice-Userbot.git"
 )
 
 # SQL Database URI
@@ -202,11 +202,11 @@ BOT_VER = os.environ.get("BOT_VER", "2.3.6")
 
 # Default .alive logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/146542cdd8aab1461a0dd.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/e2a354121b9ff3c9d0f91.jpg"
 )
 
 INLINE_PIC = (
-    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/146542cdd8aab1461a0dd.jpg"
+    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/e2a354121b9ff3c9d0f91.jpg"
 )
 
 # Picture For VCPLUGIN
