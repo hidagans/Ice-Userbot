@@ -35,7 +35,7 @@ try:
         sys.exit(1)
     if 1607338903 not in DEVS:
         LOGS.warning(
-            f"EOL\nIce-UserBot v{BOT_VER}, Copyright © 2021-2022 Kᴇɴ Kᴀɴ• <https://github.com/jokokendi>"
+            f"EOL\nFullan-BOT v{BOT_VER}, Copyright © 2021-2022 Kᴇɴ Kᴀɴ• <https://github.com/hidagans>"
         )
         sys.exit(1)
 except Exception as e:
@@ -49,7 +49,7 @@ LOGS.info(
     f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/musikkugroup"
 )
 
-LOGS.info(f"Ice-Userbot ⚙️ V{BOT_VER} [❄️ BERHASIL DIAKTIFKAN! ❄️]")
+LOGS.info(f"Fullan-BOT ⚙️ V{BOT_VER} [❄️ BERHASIL DIAKTIFKAN! ❄️]")
 
 if not BOTLOG_CHATID:
     LOGS.info(
@@ -62,7 +62,7 @@ async def ice_userbot_on():
         if BOTLOG_CHATID != 0:
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"❄️ **Ice-Userbot Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{BOT_VER}@{branch}`\n➠ **Ketik** `{cmd}alive` **Untuk Mengecek Bot**\n━━",
+                f"❄️ **Fullan-BOT Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{BOT_VER}@{branch}`\n➠ **Ketik** `{cmd}alive` **Untuk Mengecek Bot**\n━━",
             )
     except Exception as e:
         LOGS.info(str(e))
